@@ -1,6 +1,6 @@
 from PyQt6.QtWidgets import QMainWindow
 from PyQt6 import uic
-from PyQt6.QtGui import QColor, QPainter, QPen
+from PyQt6.QtGui import QColor, QPainter
 import random
 
 
