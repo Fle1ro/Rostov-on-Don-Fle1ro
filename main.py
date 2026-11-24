@@ -27,14 +27,10 @@ class YellowCircles(QDialog):
 
     def paintEvent(self, event):
         super().paintEvent(event)
-
         qp = QPainter(self)
-
         qp.setBrush(QColor(255, 255, 0))
-
         for x, y, width, height in self.circles:
             qp.drawEllipse(x, y, width, height)
-
         qp.end()
 
         self.circles.clear()
