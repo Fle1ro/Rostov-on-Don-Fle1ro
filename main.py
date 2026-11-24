@@ -4,7 +4,6 @@ from PyQt6.QtGui import QColor, QPainter
 import random
 
 
-
 class YellowCircles(QMainWindow):
     def __init__(self):
         super().__init__(self)
